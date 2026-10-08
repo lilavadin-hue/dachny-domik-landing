@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дачные бытовки и домики | Ваш идеальный дачный дом</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Дачные бытовки и домики</h1>
+            <p class="subtitle">От простой бытовки для хранения до уютного гостевого домика с террасой</p>
+            <a href="#chat" class="cta-button">Подобрать бытовку</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2>Наши работы</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800" alt="Бытовка для хранения">
+                <div class="gallery-caption">
+                    <h3>Бытовка для хранения</h3>
+                    <p>Прочная конструкция без утепления</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1449158743715-0a21398fbf5c?w=800" alt="Утепленная бытовка">
+                <div class="gallery-caption">
+                    <h3>Жилая бытовка</h3>
+                    <p>Утеплённая с полноценным окном</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=800" alt="Домик из бытовок">
+                <div class="gallery-caption">
+                    <h3>Дачный домик</h3>
+                    <p>Из 2-3 бытовок с террасой</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800" alt="Летняя кухня">
+                <div class="gallery-caption">
+                    <h3>Летняя кухня</h3>
+                    <p>Бытовка с навесом и террасой</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800" alt="Гостевой домик">
+                <div class="gallery-caption">
+                    <h3>Гостевой домик</h3>
+                    <p>Комфортное решение для гостей</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" alt="Комбинированный вариант">
+                <div class="gallery-caption">
+                    <h3>Комбинированный вариант</h3>
+                    <p>Индивидуальные решения под заказ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Section -->
+    <section class="chat-section" id="chat">
+        <h2>Подберём идеальную бытовку для вас</h2>
+        <p class="chat-intro">Ответьте на несколько вопросов, и мы поможем выбрать оптимальный вариант</p>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Сообщения будут добавляться здесь -->
+            </div>
+            
+            <div class="chat-input-area">
+                <div class="quick-replies" id="quickReplies">
+                    <!-- Быстрые ответы будут здесь -->
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="userInput" placeholder="Введите ваш ответ..." disabled>
+                    <button id="sendButton" disabled>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Дачные бытовки и домики. Все права защищены.</p>
+        <p>📞 Звоните: +7 (XXX) XXX-XX-XX | 📧 Email: info@example.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
