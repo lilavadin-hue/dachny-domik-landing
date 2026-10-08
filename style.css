@@ -13,7 +13,7 @@ body {
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     min-height: 600px;
     background: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80') center/cover no-repeat;
     display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
