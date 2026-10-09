@@ -13,9 +13,9 @@ body {
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     min-height: 600px;
-    background: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80') center/cover no-repeat;
+    background: url('img/grass-hero.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,9 +31,9 @@ body {
     bottom: 0;
     background: linear-gradient(
         to bottom,
-        rgba(255, 140, 66, 0.3) 0%,
-        rgba(255, 100, 50, 0.5) 50%,
-        rgba(139, 69, 19, 0.7) 100%
+        rgba(34, 120, 60, 0.35) 0%,
+        rgba(25, 90, 45, 0.5) 50%,
+        rgba(15, 60, 30, 0.7) 100%
     );
     z-index: 1;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
